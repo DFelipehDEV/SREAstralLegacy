@@ -72,7 +72,7 @@ image_speed=0.64
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_blend_mode(bm_inv_dest_colour){
+            <string>draw_set_blend_mode(bm_add){
 draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha)
 }
 draw_set_blend_mode(bm_normal)

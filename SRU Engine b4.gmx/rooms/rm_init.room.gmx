@@ -30,7 +30,7 @@ scr_particles()
 global.sfxvolume  = 65;
 global.bgmvolume  = 1;
 global.vcvolume   = 75;
-global.player = PLAYER_SHADOW
+global.player = PLAYER_SONIC
 global.cutscene = false;
 room_goto_next();</code>
   <enableViews>0</enableViews>

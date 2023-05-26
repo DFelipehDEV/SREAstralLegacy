@@ -844,9 +844,9 @@
     <room>rooms\rm_sega</room>
     <rooms name="Tutorials">
       <room>rooms\rm_launch</room>
+      <room>rooms\rm_testsr</room>
       <room>rooms\rm_hub1</room>
       <room>rooms\rm_test</room>
-      <room>rooms\rm_testsr</room>
       <room>rooms\rm_template</room>
       <room>rooms\rm_testhill</room>
       <room>rooms\chao_gardentest</room>

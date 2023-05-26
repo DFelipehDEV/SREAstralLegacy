@@ -55,11 +55,14 @@ image_speed = 0.37;
     radius -= 6
 else
     draw = true
-    if objPlayer.player==PLAYER_SONIC &amp;&amp; sprite_index=sprHomableShadow
-sprite_index=sprHomableSonic
-
-if objPlayer.player==PLAYER_SHADOW &amp;&amp; sprite_index=sprHomableSonic
-sprite_index=sprHomableShadow
+    if (instance_exists(objPlayer))
+    {
+        if objPlayer.player==PLAYER_SONIC &amp;&amp; sprite_index=sprHomableShadow
+    sprite_index=sprHomableSonic
+    
+    if objPlayer.player==PLAYER_SHADOW &amp;&amp; sprite_index=sprHomableSonic
+    sprite_index=sprHomableShadow
+    }
 if instance_exists(objHoming){
 x = instance_nearest(x,y,objHoming).x
 y = instance_nearest(x,y,objHoming).y
@@ -97,10 +100,13 @@ draw_set_blend_mode(bm_add){
 else
 {
     draw_set_circle_precision(32)
-    if objPlayer.player=PLAYER_SONIC
-    draw_set_colour(c_teal)
-    else
-    draw_set_colour(c_red)
+     if (instance_exists(objPlayer))
+     {
+        if objPlayer.player=PLAYER_SONIC
+        draw_set_colour(c_teal)
+        else
+        draw_set_colour(c_red)
+     }
     for(i = 0; i &lt; 2; i+=0.1)
         draw_circle(x,y,radius-i,true)
 }

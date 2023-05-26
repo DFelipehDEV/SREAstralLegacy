@@ -23,9 +23,9 @@
     }
     // Jog animation
         if (animation = "jog"){
-    animation_start  = 124;
-    animation_end    = 131;
-    animation_loop   = 124;
+    animation_start  = 2;
+    animation_end    = 2;
+    animation_loop   = 2;
     animation_speed  = 0.23;
     animation_repeat = true;
     animation_linked_to = "(none)";
@@ -33,9 +33,9 @@
     
         // Jog2 animation
         if (animation = "jog2"){
-    animation_start  = 15;
-    animation_end    = 22;
-    animation_loop   = 15;
+    animation_start  = 2;
+    animation_end    = 2;
+    animation_loop   = 2;
     animation_speed  = 0.27;
     animation_repeat = true;
     animation_linked_to = "(none)";
@@ -43,9 +43,9 @@
     
     // Running animation
     if animation = "running"{
-    animation_start  = 132;
-    animation_end    = 139;
-    animation_loop   = 132;
+    animation_start  = 2;
+    animation_end    = 2;
+    animation_loop   = 2;
     animation_speed  = 0.32;
     animation_repeat = true;
     animation_linked_to = "(none)";
@@ -53,9 +53,9 @@
     
     // Rolling animation
     if animation = "rolling"{
-    animation_start  = 23;
-    animation_end    = 26;
-    animation_loop   = 23;
+    animation_start  = 19;
+    animation_end    = 22;
+    animation_loop   = 19;
     animation_speed  = 0.3;
     animation_repeat = true;
     animation_linked_to = "(none)";
@@ -104,9 +104,9 @@
     
     // Spindash animation
     if animation = "spindash"{
-    animation_start  = 41;
-    animation_end    = 45;
-    animation_loop   = 42;
+    animation_start  = 37;
+    animation_end    = 41;
+    animation_loop   = 38;
     animation_speed  = 0.3;
     animation_repeat = true;
     animation_linked_to = "(none)";
@@ -142,9 +142,9 @@
     
     //Jump animation
     if animation = "jumping"{
-    animation_start  = 23;
-    animation_end    = 30;
-    animation_loop   = 23;
+    animation_start  = 19;
+    animation_end    = 26;
+    animation_loop   = 19;
     animation_speed  = 0.40;
     animation_repeat = true;
     animation_linked_to = "(none)";

@@ -98,7 +98,7 @@ y=objPlayer.y
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_blend_mode(bm_max)
+            <string>draw_set_blend_mode(bm_add)
 draw_self()
 draw_set_blend_mode(bm_normal)
 </string>

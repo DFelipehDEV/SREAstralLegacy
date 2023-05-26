@@ -87,6 +87,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_text(x-5,y-3,HP)
+draw_self();
 </string>
           </argument>
         </arguments>
